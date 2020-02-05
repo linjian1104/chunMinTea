@@ -1,0 +1,21 @@
+<!--pages/boss/commodity/shelves/shelves.wxml-->
+<view class="title">新商品添加</view>
+<form bindsubmit="getForm">
+  <view class="view">
+    <view class="type">商品图片</view>
+    <input name="image" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">商品名称</view>
+    <input name="name" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">库存(kg)</view>
+    <input name="count" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">售价(/杯)</view>
+    <input name="price" class="value"/>
+  </view>
+  <button class="confirm" form-type="submit">提交数据</button>
+</form>

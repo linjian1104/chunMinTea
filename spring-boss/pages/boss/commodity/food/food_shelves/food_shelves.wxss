@@ -1,0 +1,35 @@
+/* pages/boss/commodity/food/food_shelves/food_shelves.wxss */
+.title {
+  font-size: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.view {
+  font-size: 40rpx;
+  display: flex;
+  height: 70rpx;
+  width: 80%;
+  margin: 10rpx auto; 
+  border: 1rpx solid #f0f0f0;
+}
+.type {
+  width: 40%;
+  font-size: 35rpx;
+  text-align: center;
+  line-height: 60rpx; 
+}
+.value {
+  max-width: 60%;
+  font-size: 35rpx;
+  height: 60rpx;
+  border-left: 1rpx solid #f0f0f0; 
+  text-align: center;
+}
+.confirm {
+  background-color: #0ba30a;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 125rpx;
+}

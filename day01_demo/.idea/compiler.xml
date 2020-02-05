@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day01_orderconsumer" />
+        <module name="day01_eureka03" />
+        <module name="day01_order-consumer" />
+        <module name="day01_order-provider01" />
+        <module name="day01_shoppingCar" />
+        <module name="day01_websocketClient" />
+        <module name="day01_eureka01 (1)" />
+        <module name="day01_cm_java" />
+        <module name="shiyue" />
+        <module name="day01_eureka01" />
+        <module name="day01_eureka01 (2)" />
+        <module name="day01_staffClient" />
+        <module name="day01_eureka01 (3)" />
+        <module name="day01_orderprovider01" />
+        <module name="day01_medo_childCommon" />
+        <module name="day01eureka02" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+
+
+server:
+  port: 8086
+spring:
+  application:
+    name: demo-order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_tea?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root

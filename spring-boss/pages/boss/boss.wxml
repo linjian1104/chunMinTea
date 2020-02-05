@@ -1,0 +1,14 @@
+<!--pages/boss/boss.wxml-->
+<navigator open-type="navigate" url="staff/staff">
+  <view class="b_view" >员工信息</view>
+</navigator>
+
+
+<navigator open-type="navigate" url="commodity/commodity">
+  <view class="b_view" >商品管理</view> 
+</navigator>
+
+
+<!-- <navigator open-type="navigate" url="../index/index"> -->
+  <view class="ESC" bindtap="ESC">退出</view>
+<!-- </navigator> -->

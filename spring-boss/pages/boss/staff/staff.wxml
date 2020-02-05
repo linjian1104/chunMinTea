@@ -1,0 +1,27 @@
+<!--pages/staff/staff.wxml-->
+<view>
+  <view class="search">
+    <icon type="search" class="search-img" size="20"></icon>
+    <input class="search_" bindfocus="close" bindblur="close_" placeholder-class="text" placeholder=" 请输入员工姓名或工号"/>
+    <icon type="clear" class="clear-img" size="18" bindtap="clear"></icon>
+  </view>
+
+  <view class="class_list" wx:if="{{containershow}}">
+    <view wx:for='{{usersArr}}' wx:key='{{index}}'>
+      <view class="v_staff">
+        <view class="s_name">
+          员工姓名:{{item.name}}
+        </view>
+        <navigator open-type="navigate" url="details/details?index={{index}}&id={{item.id}}">
+          <view class="s_details" bindtap="view_details">详情查看</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="add_">添加员工</view>
+  </view>
+  
+  <navigator open-type="navigate" url="addStaff/addStaff">
+    <button class="add">添加员工</button>
+  </navigator>
+  
+</view>

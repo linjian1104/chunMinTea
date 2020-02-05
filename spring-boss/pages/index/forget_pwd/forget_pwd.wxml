@@ -1,0 +1,19 @@
+<!--pages/index/forget_pwd/forget_pwd.wxml-->
+<view class="title">找回密码</view>
+ <view class="controller">
+    <view class="view">
+    <text>输入手机号:</text>
+    <input bindinput="telephoneInput" name="telephone" placeholder="输入账号绑定的手机号"/>
+  </view>
+  <view class="view">
+    <text>输入验证码:</text>
+    <input bindinput="codeInput" name="code" class="code"/>
+    <button wx:if="{{containershow_}}" >{{codeTime}}</button>
+    <button wx:if="{{containershow}}" bindtap="switch">{{codeTime}}</button>
+  </view>
+  <navigator open-type="navigate" url="new_pwd/new_pwd?telephone={{telephone}}">
+    <button class="next" bindtap="next">下一步</button>
+  </navigator>
+    
+ </view>
+ 

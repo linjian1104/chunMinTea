@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_cm_java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_eureka01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_eureka03" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_medo_childCommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_orderconsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_orderprovider01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_shoppingCar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_staffClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_websocketClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01eureka02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shiyue" charset="UTF-8" />
+  </component>
+</project>

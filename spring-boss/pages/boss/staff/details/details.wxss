@@ -1,0 +1,206 @@
+/* pages/staff/details/details.wxss */
+.t1{
+  font-size: 50rpx;
+  text-align: center;
+}
+.t2{
+  display: flex;
+  margin-top: 40rpx;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 240rpx;
+}
+.view-1{
+  font-size: 35rpx;
+  display: flex;
+}
+.name{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 13.3%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.name_input{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  max-width: 20%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.name_ {
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 20%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.six{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 13.3%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.six_input{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  max-width: 20%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.six_{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 20%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.age{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 13.3%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.age_input{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  max-width: 20%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.age_{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 20%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.view-2{
+  font-size: 35rpx;
+  margin:3rpx 0; 
+  display: flex;
+  box-shadow: 2px 2px 3px #515151;
+}
+.tel{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 22%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.tel_input{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  max-width: 38%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.tel_{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 38%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.s_id{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 14%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.s_id_input{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  max-width: 26%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.s_id_{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 26%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.view-3{
+  font-size: 35rpx;
+  margin:3rpx 0; 
+  display: flex;
+  box-shadow: 2px 2px 3px #515151;
+}
+.date{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 22%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.date_input{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  max-width: 28%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.date_{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 28%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.date2{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 22%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.date2_input{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  max-width: 28%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.date2_{
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 28%;
+  box-shadow: 2px 2px 3px #515151;
+}
+.details_ {
+  background-color: #e33230;
+  box-shadow: 2px 2px 5px #e33230;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 300rpx;
+}
+.details {
+  box-shadow: 2px 2px 5px #515151;
+  width: 100%;
+  position: fixed;
+  bottom: 300rpx;
+}
+.delete {
+  background-color: #e33230;
+  box-shadow: 2px 2px 5px #e33230;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 180rpx;
+}
+.confirm {
+  background-color: #0ba30a;
+  box-shadow: 2px 2px 5px #0ba30a;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 180rpx;
+}

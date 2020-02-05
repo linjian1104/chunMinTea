@@ -1,0 +1,5 @@
+
+                    春茗茶楼
+1.spring-tea , spring-boss , spring-staff,分别表示茶楼客户端、老板端、员工端
+2.day01_demo 表示春茗茶楼微信小程序后端Java程序
+3.spring_tea.sql 表示小程序MySQL数据库

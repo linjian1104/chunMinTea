@@ -1,0 +1,63 @@
+<!--pages/boss/staff/addStaff/addStaff.wxml-->
+<view class="title">录入员工信息</view>
+<form bindsubmit='getForm'>
+  <view class="view">
+    <view class="type">姓名</view>    
+    <input name="name" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">性别</view>
+    <input name="six" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">年龄</view>
+    <input name="age" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">联系电话</view>
+    <input name="telephone" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">工号</view>
+    <input name="cardId" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">入职时间</view>
+    <input name="joinDate" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">员工密码</view>
+    <input name="password" class="value"/>
+  </view>
+  <button class="confirm" form-type="submit" bindtap="confirm_add">确认添加</button>
+</form>
+<!--
+
+
+-->
+<!-- <view class="view">
+    <view class="type">姓名</view>    
+    <input name="name" class="value" bindtap="name_input"/>
+  </view>
+  <view class="view">
+    <view class="type">性别</view>
+    <input name="six" class="value" bindtap="six_input"/>
+  </view>
+  <view class="view">
+    <view class="type">年龄</view>
+    <input name="age" class="value" bindtap="age_input"/>
+  </view>
+  <view class="view">
+    <view class="type">联系电话</view>
+    <input name="telephone" class="value" bindtap="telephone_input"/>
+  </view>
+  <view class="view">
+    <view class="type">工号</view>
+    <input name="cardId" class="value" bindtap="cardId_input"/>
+  </view>
+  <view class="view">
+    <view class="type">入职时间</view>
+    <input name="joinDate" class="value" bindtap="joinDate_input"/>
+  </view>
+  <button class="confirm" form-type="submit" bindtap="confirm_add">确认添加</button>
+ -->

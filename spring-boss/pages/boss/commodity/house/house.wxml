@@ -1,0 +1,35 @@
+<!--pages/boss/commodity/house/house.wxml-->
+
+<view class="title">包间列表</view>
+
+<view wx:for='{{commoditysArr}}' wx:key='{{index}}'>
+  <view class="view">
+    <image src="{{item.image}}"></image>
+    <view class="tea_detail">
+      <view class="detail">
+        <h2>包间名:</h2>
+        <text class="value">{{item.name}}</text>
+        
+      </view>
+      <view class="detail">
+        <h2>数量(间):</h2>
+        <text class="value">{{item.count}}</text>
+
+      </view>
+      <view class="detail">
+        <h2>售价(/间):</h2>
+        <text class="value">{{item.price}}</text>
+      </view>
+    </view>
+      <navigator open-type="navigate" url="house_modify/house_modify?index={{index}}&id={{item.id}}">
+        <view  class="join_update">
+        详情
+        </view>
+      </navigator>
+  </view>
+</view>
+<view class="liubai">
+</view>
+<navigator open-type="navigate" url="house_shelves/house_shelves">
+  <button class="shelves">添加新包间</button>
+</navigator>

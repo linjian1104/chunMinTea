@@ -1,0 +1,13 @@
+<!--pages/index/forget_pwd/new_pwd/new_pwd.wxml-->
+<view class="title">修改密码</view>
+<form bindsubmit="getForm">
+  <view class="view">
+    <view class="type">请输入新密码</view>
+    <input type="password" name="new_pwd" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">请确认新密码</view>
+    <input type="password" name="new_pwd2" class="value"/>
+  </view>
+  <button class="confirm" form-type="submit" bindtap="confirm">确认修改密码</button>
+</form>

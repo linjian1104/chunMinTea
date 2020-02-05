@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/boss/commodity/commodity",
+    "pages/boss/commodity/tea/tea",
+    "pages/index/register/register",
+    "pages/index/forget_pwd/forget_pwd", 
+    "pages/boss/commodity/food/food",
+    "pages/boss/commodity/house/house",
+    "pages/boss/commodity/house/house_shelves/house_shelves",
+    "pages/boss/boss",
+    "pages/boss/staff/staff",
+    "pages/boss/staff/details/details",
+    "pages/boss/cha_pwd/cha_pwd",
+    "pages/boss/commodity/tea/shelves/shelves",
+    "pages/boss/commodity/tea/modify/modify",
+    "pages/boss/staff/addStaff/addStaff",
+    "pages/boss/reportForm/reportForm",
+    "pages/boss/commodity/house/house_modify/house_modify",
+    "pages/boss/commodity/food/food_modify/food_modify",
+    "pages/boss/commodity/food/food_shelves/food_shelves",
+    
+    "pages/index/forget_pwd/new_pwd/new_pwd"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "春茗",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json"
+}

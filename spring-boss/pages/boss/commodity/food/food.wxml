@@ -1,0 +1,34 @@
+<!--pages/boss/commodity/food/food.wxml-->
+<view class="title">小吃列表</view>
+
+<view wx:for='{{commoditysArr}}' wx:key='{{index}}'>
+  <view class="view">
+    <image src="{{item.image}}"></image>
+    <view class="tea_detail">
+      <view class="detail">
+        <h2>小吃名称:</h2>
+        <text class="value">{{item.name}}</text>
+        
+      </view>
+      <view class="detail">
+        <h2>库存(Kg):</h2>
+        <text class="value">{{item.count}}</text>
+
+      </view>
+      <view class="detail">
+        <h2>售价(/份):</h2>
+        <text class="value">{{item.price}}</text>
+      </view>
+    </view>
+      <navigator open-type="navigate" url="food_modify/food_modify?index={{index}}&id={{item.id}}">
+        <view  class="join_update">
+        详情
+        </view>
+      </navigator>
+  </view>
+</view>
+<view class="liubai">
+</view>
+<navigator open-type="navigate" url="food_shelves/food_shelves">
+  <button class="shelves">新品小吃添加</button>
+</navigator>

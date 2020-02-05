@@ -1,0 +1,12 @@
+<!--pages/boss/boss.wxml-->
+<navigator open-type="navigate" url="tea/tea">
+  <view class="b_view" >茶</view>
+</navigator>
+
+<navigator open-type="navigate" url="house/house">
+  <view class="b_view" >包间</view>
+</navigator>
+
+<navigator open-type="navigate" url="food/food">
+  <view class="b_view" >食物</view> 
+</navigator>

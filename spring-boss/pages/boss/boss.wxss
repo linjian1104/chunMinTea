@@ -1,0 +1,23 @@
+/* pages/boss/boss.wxss */
+.b_view{
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 20rpx;
+  font-size: 40rpx;
+  background-color: #f0f0f0;
+  margin-top: 50rpx;
+  height: 100rpx;
+  box-shadow: 2px 2px 5px #717171;
+}
+.ESC{
+  background-color: #eb1313;
+  color: white;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 40rpx;
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0px;
+}

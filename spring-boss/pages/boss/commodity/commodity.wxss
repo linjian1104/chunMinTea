@@ -1,0 +1,11 @@
+/* pages/boss/boss.wxss */
+.b_view{
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 20rpx;
+  font-size: 40rpx;
+  background-color: #f0f0f0;
+  margin-top: 120rpx;
+  height: 100rpx;
+  box-shadow: 2px 2px 5px #717171;
+}

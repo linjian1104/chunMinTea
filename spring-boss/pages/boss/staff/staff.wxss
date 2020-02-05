@@ -1,0 +1,63 @@
+/* pages/staff/staff.wxss */
+.search {
+  margin: 0 auto;
+  width: 95%;
+  height: 70rpx;
+  background-color: #f0f0f0;
+  margin-top: 3%;
+  border: 1rpx solid white;
+  border-radius: 10rpx;
+  line-height: 70rpx;
+  display: flex;
+  flex-direction: row;
+}
+.search-img{
+  margin-top:2%;
+  margin-left: 3%
+}
+.clear-img {
+  margin-top: 2%;
+  margin-left: 3%;
+
+}
+.search_{
+  width: 80%;
+  margin-left: 20rpx;
+  height:  70rpx;
+  line-height: 70rpx;
+}
+
+.class_list{
+  /* background-color: yellow; */
+  height: 500rpx;
+  margin:1em 1em;
+}
+.v_staff{
+  margin: 20rpx 0;
+  background-color: #fff;
+  height: 60rpx;
+  display: flex;
+  justify-content:space-between;
+  box-shadow: 2px 2px 5px #d1d1d1;
+}
+.s_name {
+  padding-left: 0.5em;
+}
+.s_details {
+  color:#414141; 
+  line-height: 60rpx;
+  padding-right: 0.5em;
+}
+.add{
+  width: 100%;
+  position: fixed;
+  bottom: 0rpx;
+  
+}
+.add_{
+  height: 5em;
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+  border: none;
+}

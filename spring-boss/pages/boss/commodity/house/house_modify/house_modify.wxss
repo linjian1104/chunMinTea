@@ -1,0 +1,74 @@
+/* pages/boss/commodity/house/house_modity/house_modity.wxss */
+.title {
+  font-size: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.t2 {
+  display: flex;
+  margin-top: 20rpx;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 240rpx;
+}
+.view {
+  font-size: 40rpx;
+  display: flex;
+  height: 70rpx;
+  width: 80%;
+  margin: 10rpx auto; 
+
+}
+.title_ {
+  text-align: center;
+  line-height: 70rpx;
+  width: 20%;
+  box-shadow: 2px 2px 5px #d1d1d1;
+}
+.value {
+  margin-left: 5rpx;
+  line-height: 70rpx;
+  width: 70%;
+  box-shadow: 2px 2px 5px #d1d1d1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.view input{
+  margin-left: 5rpx;
+  height: 70rpx;
+  max-width: 80%;
+  box-shadow: 2px 2px 5px #d1d1d1;
+}
+.update {
+  background-color: #0ba30a;
+  box-shadow: 2px 2px 5px #0ba30a;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 150rpx;
+}
+.delete {
+  background-color: #e33230;
+  box-shadow: 2px 2px 5px #e33230;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 50rpx;
+}
+.confirm {
+  background-color: #0ba30a;
+  box-shadow: 2px 2px 5px #0ba30a;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 260rpx;
+}
+.cancel {
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 5px #f1f1f1;
+  width: 100%;
+  position: fixed;
+  bottom: 150rpx;
+}

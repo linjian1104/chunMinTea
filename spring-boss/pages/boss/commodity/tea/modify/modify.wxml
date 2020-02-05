@@ -1,0 +1,32 @@
+<!--pages/boss/commodity/shelves/shelves.wxml-->
+<view class="title">商品信息详情</view>
+<view class="t2">
+  <image style="width: 180rpx;height: 200rpx;" src="{{teaDetail.image}}"/>
+</view>
+<form bindsubmit='getForm'> 
+<view class="view">
+      <view class="title_">图片:</view>
+      <input wx:if="{{show_input}}" value="{{teaDetail.image}}" name="image"/>
+      <view wx:if="{{show_input_}}" class="value">{{teaDetail.image}}</view>
+    </view>
+    <view class="view">
+      <view class="title_">名称:</view>
+      <input wx:if="{{show_input}}" value="{{teaDetail.name}}" name="name"/>
+      <view wx:if="{{show_input_}}" class="value">{{teaDetail.name}}</view>
+    </view>
+    <view class="view">
+      <view class="title_">库存:</view>
+      <input wx:if="{{show_input}}" value="{{teaDetail.count}}" name="count"/>
+      <view wx:if="{{show_input_}}" class="value">{{teaDetail.count}}</view>
+    </view>
+    <view class="view">
+      <view class="title_">售价:</view>
+      <input wx:if="{{show_input}}" value="{{teaDetail.price}}" name="price"/>
+      <view wx:if="{{show_input_}}" class="value">{{teaDetail.price}}</view>
+    </view>
+    <button class="confirm" wx:if="{{show_input}}" form-type="submit">保存修改</button>
+  <button class="cancel" wx:if="{{show_input}}" bindtap="update_">取消修改</button>
+</form>
+<button class="update" wx:if="{{show_input_}}" bindtap="update_det">修改商品信息</button>
+<button class="delete" wx:if="{{show_input_}}" bindtap="delete_com">下架该商品</button>
+

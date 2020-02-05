@@ -1,0 +1,34 @@
+<!--pages/commodity/commodity.wxml-->
+<view class="title">库存详情</view>
+
+<view wx:for='{{commoditysArr}}' wx:key='{{index}}'>
+  <view class="view">
+    <image src="{{item.image}}"></image>
+    <view class="tea_detail">
+      <view class="detail">
+        <h2>茶名:</h2>
+        <text class="value">{{item.name}}</text>
+        
+      </view>
+      <view class="detail">
+        <h2>库存(Kg):</h2>
+        <text class="value">{{item.count}}</text>
+
+      </view>
+      <view class="detail">
+        <h2>售价(/杯):</h2>
+        <text class="value">{{item.price}}</text>
+      </view>
+    </view>
+      <navigator open-type="navigate" url="modify/modify?index={{index}}&id={{item.id}}">
+        <view  class="join_update">
+        详情
+        </view>
+      </navigator>
+  </view>
+</view>
+<view class="liubai">
+</view>
+<navigator open-type="navigate" url="shelves/shelves">
+  <button class="shelves">新商品添加</button>
+</navigator>

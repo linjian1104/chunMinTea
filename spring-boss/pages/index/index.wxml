@@ -1,0 +1,44 @@
+<!--pages/index/index.wxml-->
+<view>
+  <swiper indicator-dots="true" autoplay="true" duration="1000">
+    <swiper-item>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576641447963&di=2f3d78e553df4de161539b402c46ff45&imgtype=0&src=http%3A%2F%2Fpic2.zhimg.com%2Fv2-2bad4662c68e5a520dc4a5a936c20896_1200x500.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576641447962&di=45e964f6e9187007775fd5873b7e0000&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Ftranslate%2F533%2Fw1280h853%2F20180723%2FM5zC-hftenhz0639641.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576641447961&di=6085b5b759ad80d5744624aa89cb857b&imgtype=0&src=http%3A%2F%2Fcollection.sinaimg.cn%2Fzsbk%2F20120509%2FU5826P1081T2D67096F6DT20120509095930.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576641447961&di=35cab3e877640b0f5eddedc54d926db3&imgtype=0&src=http%3A%2F%2Fimage08.71.net%2Fimage08%2F54%2F64%2F11%2F23%2Ffa0b8452-1404-4615-a139-df79dfd972e1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576641447959&di=1ca41c568f6284bdd6ae026d58ee4ff1&imgtype=0&src=http%3A%2F%2Ffooding.hmgcdn.com%2Fimages%2Farticle%2F102595%2Fa102595_107891_1429679424.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576641447959&di=d4a7b88c2c7ef8ed6d4a2c7b9ac72ce2&imgtype=0&src=http%3A%2F%2Fyuan.chetea.com%2Fupload%2Fimages%2F20180207%2F6365361373583636217552476.jpeg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="indexContainer">
+
+  <form bindsubmit="getForm">
+    <view class="uname">
+    账 号：
+      <input type="text" name="name" placeholder="请输入管理员账号"/>
+    </view>
+    <view class="pwd">
+      密 码：
+      <input type="password" name="password" placeholder=" 请输入密码"/>
+    </view>
+    <button class="denglu" form-type="submit" bindtap="record">登 录</button>
+  </form>
+  <navigator open-type="navigate" url="register/register">
+    <view class="register">新账号注册</view>
+  </navigator>
+  <navigator open-type="navigate" url="forget_pwd/forget_pwd">
+    <view class="forget_pwd">忘记密码？</view>
+  </navigator>
+</view>

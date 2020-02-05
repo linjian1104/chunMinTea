@@ -1,0 +1,21 @@
+<!--pages/boss/commodity/food/food_shelves/food_shelves.wxml-->
+<view class="title">新食物添加</view>
+<form bindsubmit="getForm">
+  <view class="view">
+    <view class="type">食物图片</view>
+    <input name="image" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">食物名称</view>
+    <input name="name" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">库存(kg)</view>
+    <input name="count" class="value"/>
+  </view>
+  <view class="view">
+    <view class="type">价格(/kg)</view>
+    <input name="price" class="value"/>
+  </view>
+  <button class="confirm" form-type="submit">提交数据</button>
+</form>
